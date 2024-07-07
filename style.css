@@ -7,7 +7,7 @@ body {
     background-color: #7b7b81;
     color: #ffff;
     line-height: 1.6;
-    background-image: url(bg.jpg);
+    background-image: bg.jpg;
     background-attachment: fixed;
     
 }
@@ -325,7 +325,7 @@ form input, form textarea {
 }
 
 #subbtn:hover {
-    background-image: url(bg.jpg);
+    background-image: bg.jpg;
     opacity: 0.8;  
 }
 .center-button {
