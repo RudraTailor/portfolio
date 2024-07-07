@@ -1,0 +1,74 @@
+<!-- 
+
+1. List notable projects (include personal and professional one).
+2. For each project include:
+    > A title
+    > A brief description
+    > The date completed
+    > Technologies used.
+    > Screenshot or image related to the project.
+    # List atleast 4 projects.
+    # Organize the project within a 'container'
+    + Each projects should be represented by a <div> element [containing the title, description, date, and an image].
+    >  Implement 'JavaScript' to allow users to move between projects.
+        + Add 'Next' and 'Previous' buttons that shows or hide project information one at a time.
+        # Creating a simple slideshow for browsing through projects.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudra Tailor | Projects</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <script defer src="/JS/script.js"></script>
+    <link rel="icon" href="/images/project.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1 class="head">Projects</h1>
+    <div class="container">
+        <div class="project active">
+            <h2>Python modules</h2>
+            <p>A python module designed to complete simple and necessary tasks quickly.</p>
+            <p><strong>Date Completed:</strong> March 2024</p>
+            <p><strong>Technologies Used:</strong> Python, VScode</p>
+            <a href="https://github.com/RudraTailor/python-module">
+                <img src="/images/pythonmod.png" alt="Personal Finance Tracker">
+            </a>
+        </div>
+        <div class="project">
+            <h2>WEB3 Project</h2>
+            <p>A blockchain-based buying and trading tokens website to ensure transparency and security in the process.
+            </p>
+            <p><strong>Date Completed:</strong> April 2022</p>
+            <p><strong>Technologies Used:</strong> Typedream framework, HTML,CSS,JavaScript,Third web smart
+                contracts,Polygon blockchain,Ethereum</p>
+            <img src="/images/web3.png" alt="WEB3 Web">
+        </div>
+        <div class="project">
+            <h2>Portfolio Website</h2>
+            <p>A personal portfolio website to showcase my skills, projects, and resume.</p>
+            <p><strong>Date Completed:</strong> June 2024</p>
+            <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+            <img src="/images/portfolio.png" alt="Portfolio Website">
+        </div>
+    </div>
+    <div class="controls">
+        <button id="previous">Previous</button>
+        <button id="next">Next</button>
+    </div>
+</body>
+
+</html>
