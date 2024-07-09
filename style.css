@@ -7,7 +7,7 @@ body {
   background-color: #7b7b81;
   color: #ffff;
   line-height: 1.6;
-  background-image: url(bg.jpg);
+  background-image: url(/images/bg.jpg);
   background-attachment: fixed;
 }
 
@@ -165,7 +165,7 @@ nav ul li a:hover {
   display: block;
 }
 .dropbtn {
-  background-image: url(bg.jpg);
+  background-image: url(/images/bg.jpg);
   color: #ffffff;
   box-shadow: none;
 }
@@ -291,10 +291,12 @@ ul li {
 
 /* Projects page specific styles */
 .proj-image {
-  border-radius: 25%;
+  border-radius: 5%;
   height: 50px;
   width: 50px;
+  box-shadow: 0 0 5px 5px #ffff;
 }
+
 .project {
   display: none;
 }
