@@ -2,25 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Rudra Tailor">
-    <title>Rudra Tailor | Projects</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
-    <link rel="icon" href="project.png" type="image/x-icon">
+    <meta name="author" content="Rudra Tailor"> 
+    <title>Rudra Tailor | Projects</title> 
+
+    <link rel="stylesheet" href="/CSS/style.css"> 
+    <script defer src="script.js"></script> 
+    <link rel="icon" href="project.png" type="image/x-icon"> 
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <h1 class="head">Projects</h1>
+
     <div class="container">
         <div class="project active">
             <h2>Joke Generator</h2>
@@ -28,7 +34,17 @@
             <p><strong>Date Completed:</strong> July 2024</p>
             <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
             <a href="https://rudratailor.github.io/joke-generator/" target="_blank">
-                <img src="joke.png" alt="Joke Generator" class="proj-image"></a>
+                <img src="joke.png" alt="Joke Generator" class="proj-image">
+            </a>
+        </div>
+
+        <div class="project">
+            <h2>Tool Rental Management System</h2>
+            <p>A database project designed to track, schedule, and manage the rental of tools and equipment. It
+                streamlines inventory control, reservation handling, and maintenance scheduling.</p>
+            <p><strong>Date Completed:</strong> June 2024</p>
+            <p><strong>Technologies Used:</strong>MS Access, SSMS, MySQL server</p>
+            <img src="toolrental.jpg" alt="Tool Rental Management" class="proj-image">
         </div>
 
         <div class="project">
@@ -40,22 +56,31 @@
                 <img src="pythonmod.png" alt="Python Module" class="proj-image">
             </a>
         </div>
+
         <div class="project">
             <h2>WEB3 Project</h2>
             <p>A blockchain-based buying and trading tokens website to ensure transparency and security in the process.
             </p>
             <p><strong>Date Completed:</strong> April 2022</p>
-            <p><strong>Technologies Used:</strong> Typedream framework, HTML,CSS,JavaScript,Third web smart
-                contracts,Polygon blockchain,Ethereum</p>
+            <p><strong>Technologies Used:</strong> Typedream framework, HTML, CSS, JavaScript, Third web smart
+                contracts,
+                Polygon blockchain, Ethereum</p>
             <a href="https://boredypunks.typedream.app/" target="_blank">
                 <img src="web3.png" alt="WEB3 Web" class="proj-image">
             </a>
         </div>
     </div>
+
+
     <div class="controls">
         <button id="previous">Previous</button>
         <button id="next">Next</button>
     </div>
+
+    <footer>
+        <br><br>
+        <p>&copy; 2024 Rudra Tailor. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
