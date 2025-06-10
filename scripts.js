@@ -253,7 +253,7 @@
                     }
                 }
 
-                if (e.target === blogModal || e.target.classList.contains('modal-close')) {
+                if (e.target === blogModal || e.target.closest('.modal-close')) {
                     blogModal.classList.remove('active');
                     document.body.style.overflow = '';
                 }
